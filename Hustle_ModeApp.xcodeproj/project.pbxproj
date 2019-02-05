@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		69AF4A112209AE33009B1E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A102209AE33009B1E38 /* AppDelegate.swift */; };
-		69AF4A132209AE33009B1E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A122209AE33009B1E38 /* ViewController.swift */; };
 		69AF4A162209AE33009B1E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A142209AE33009B1E38 /* Main.storyboard */; };
 		69AF4A182209AE3E009B1E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A172209AE3E009B1E38 /* Assets.xcassets */; };
 		69AF4A1B2209AE3E009B1E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A192209AE3E009B1E38 /* LaunchScreen.storyboard */; };
+		69AF4A232209AEC9009B1E38 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69AF4A222209AEC9009B1E38 /* hustle-on.wav */; };
+		69AF4A252209B3BF009B1E38 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AF4A242209B3BF009B1E38 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69AF4A0D2209AE33009B1E38 /* Hustle_ModeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hustle_ModeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AF4A102209AE33009B1E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69AF4A122209AE33009B1E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69AF4A152209AE33009B1E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69AF4A172209AE3E009B1E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69AF4A1A2209AE3E009B1E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69AF4A1C2209AE3E009B1E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69AF4A222209AEC9009B1E38 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+		69AF4A242209B3BF009B1E38 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				69AF4A102209AE33009B1E38 /* AppDelegate.swift */,
-				69AF4A122209AE33009B1E38 /* ViewController.swift */,
+				69AF4A242209B3BF009B1E38 /* MyViewController.swift */,
+				69AF4A222209AEC9009B1E38 /* hustle-on.wav */,
 				69AF4A142209AE33009B1E38 /* Main.storyboard */,
 				69AF4A172209AE3E009B1E38 /* Assets.xcassets */,
 				69AF4A192209AE3E009B1E38 /* LaunchScreen.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69AF4A232209AEC9009B1E38 /* hustle-on.wav in Resources */,
 				69AF4A1B2209AE3E009B1E38 /* LaunchScreen.storyboard in Resources */,
 				69AF4A182209AE3E009B1E38 /* Assets.xcassets in Resources */,
 				69AF4A162209AE33009B1E38 /* Main.storyboard in Resources */,
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69AF4A132209AE33009B1E38 /* ViewController.swift in Sources */,
+				69AF4A252209B3BF009B1E38 /* MyViewController.swift in Sources */,
 				69AF4A112209AE33009B1E38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
